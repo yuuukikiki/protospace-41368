@@ -8,7 +8,7 @@
 #
 # And be sure to use new-style password hashing:
 #   https://dev.mysql.com/doc/refman/5.7/en/password-hashing.html
-#
+database: protospace-41368_development
 default: &default
   adapter: mysql2
   encoding: utf8
@@ -16,7 +16,7 @@ default: &default
   username: root
   password:
   socket: /tmp/mysql.sock
-
+database: protospace-41368
 development:
   <<: *default
   database: protospace_41368_development
